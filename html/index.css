@@ -1,0 +1,2423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 13svh;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1.2rem;
+  background: rgb(255, 254, 255);
+}
+
+.header-child {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-and-lists {
+  display: flex;
+  width: 70%;
+  justify-self: flex-start;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #354463;
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  justify-self: flex-start;
+}
+
+.nav {
+  width: 60%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list {
+  font-size: 1rem;
+  color: #354463;
+  white-space: nowrap;
+}
+
+.donate-container {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-btn {
+  padding: 0.7rem 1.6rem;
+  border: none;
+  border-radius: 3rem;
+
+  background: #c1f7d5;
+
+  font-size: 1rem;
+  font-weight: bold;
+  color: #354463;
+
+  cursor: pointer;
+}
+
+.main-content {
+  width: 100%;
+  height: 75svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-child {
+  width: 100%;
+  height: 75svh;
+  background-image: url("../assets/assets/home/annie-spratt-135307-unsplash.png");
+  background-size: cover;
+  background-size: 100svw 75svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.climate-change-container {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.climate-change {
+  height: 100%;
+  width: 35%;
+  background-color: white;
+  font-size: 2.5rem;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  gap: 10%;
+  color: #354463;
+  position: relative;
+}
+
+.climate-change-inner {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap : 0px; */
+}
+
+.climate-change a {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #4c5975;
+}
+
+.text-climate-change {
+  width: 80%;
+}
+.text-link {
+  width: 80%;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #4c5975;
+  text-align: start;
+}
+
+.climate-change-photo {
+  height: 55%;
+  width: 70%;
+  font-family: "flood-std";
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  color: white;
+  opacity: 1;
+}
+
+.actions-gap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1f7d5;
+}
+
+.take-action {
+  width: 80%;
+  height: 24svh;
+  background-color: #c1f7d5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5svw;
+}
+
+.action-item {
+  max-width: 15svw;
+}
+
+.action-item .action-type {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #354463;
+}
+
+.action-item p {
+  color: #354463;
+}
+
+.what-we-do {
+  background-color: #354463;
+  height: 250svh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-we-do-main {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what-we-do-child {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.what-we-do-heading {
+  width: 50%;
+  height: 15%;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mission-explanation {
+  width: 100%;
+  height: 65%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.what-we-do-card {
+  width: 100%;
+  height: 25%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.what-we-do-card-child {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rest-what-we-do-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.pic-what-we-do {
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  position: relative;
+  top: -50px;
+}
+
+.first {
+  background-image: url("../assets/assets/home/tree-planting.png");
+}
+
+.second {
+  background-image: url("../assets/assets/home/education-training.png");
+}
+
+.third {
+  background-image: url("../assets/assets/home/advocacy.png");
+}
+.what-we-do-card-title {
+  width: 100%;
+  height: 18px;
+  text-align: center;
+  font: normal normal bold 18px/22px Helvetica;
+  color: #354463;
+}
+.what-we-do-card-matter {
+  width: 242px;
+  height: 94px;
+  margin-top: 22px;
+  margin-bottom: 31px;
+  text-align: center;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 0.85;
+}
+.what-we-do-card-read-more {
+  padding: 10px 30px;
+  background: #c1f7d5;
+  border-radius: 100px;
+  font-weight: bold;
+  color: #354463;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.facts {
+  height: 130svh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/assets/mobile/did-you-know-background-mobile.png");
+  background-size: cover;
+}
+
+.facts-child {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px 30px 0px;
+  box-sizing: border-box;
+}
+
+.hunger-and-action {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.hunger-issue {
+  height: 55%;
+  width: 70%;
+  font-family: "flood-std";
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  color: white;
+  font-weight: bold;
+}
+.take-action-hunger {
+  height: 10%;
+  width: 60%;
+}
+.take-action-hunger-btn {
+  width: 80%;
+  height: 100%;
+  background-color: #c1f7d5;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  color: #354463;
+  border-radius: 100px;
+}
+
+.take-action-head {
+  font-weight: lighter;
+  height: 40px;
+  width: 40%;
+  color: #ffffff;
+  background-color: #354463;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  font-size: 1rem;
+}
+
+.did-you-know {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 15px;
+  align-items: center;
+  position: relative;
+}
+
+.did-you-know-heading {
+  width: 15svh;
+  height: 6%;
+  background-color: #354463;
+  color: #ffffff;
+  align-self: center;
+  font-size: smaller;
+  position: absolute;
+  top: 1%;
+  align-content: center;
+  text-align: center;
+}
+
+.know {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 30% 70%;
+  background-color: white;
+  row-gap: 20px;
+  height: 22%;
+  justify-items: space-between;
+  align-items: center;
+  padding: 10% 10% 10% 10%;
+}
+.fact {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.icon-1 {
+  width: 32px;
+  height: 32px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  background-image: url("../assets/assets/mobile/iconmonstr-twitter-1.png");
+  background-position: center;
+}
+.icon2 {
+  width: 32px;
+  height: 32px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  background-image: url("../assets/assets/mobile/iconmonstr-facebook-1.png");
+  background-position: center;
+}
+.fact {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #354463;
+}
+.fact-details {
+  color: #354463;
+  font-weight: lighter;
+}
+
+.stories-main-div {
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stories-div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 10%;
+}
+.stories-photo-div {
+  width: 100%;
+  height: 40% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 10%;
+}
+.stories-title {
+  width: 40%;
+  height: 40px;
+  background: #354463 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: Helvetica;
+  font-size: 1rem;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  position: absolute;
+  top: -20px;
+}
+.stories-photo {
+  width: 100%;
+  height: 100%;
+  background: url("../assets/assets/mobile/stories-mobile.png");
+}
+
+.stories-photo {
+  width: 100% !important;
+  aspect-ratio: 1/1;
+  background: url("../assets/assets/mobile/stories-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stories-matter {
+  height: 440px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.stories-description {
+  width: 100%;
+  height: 296px;
+  background: #354463 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.stories-matter-1 {
+  width: 80%;
+  height: 203px;
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.stories-matter-2 {
+  width: 100%;
+  height: 18px;
+  text-align: center;
+  font: normal normal normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+  color: #ffffff;
+}
+.stories-read-more {
+  width: 50%;
+  height: 40px;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font: Helvetica;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+.future-main-div {
+  width: 100%;
+  background: #354463;
+  display: flex;
+  justify-content: center;
+}
+
+.rest-part-future-div {
+  width: 80%;
+}
+
+.future-title-div {
+  width: 90%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "flood-std", sans-serif;
+  color: #ffffff;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.future-card1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.future-card-title {
+  width: 150px;
+  height: 40px;
+  background: #ffffff;
+  color: #354463;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: -20px;
+}
+
+.rest-part-future-card1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.future-card1-photo {
+  width: 100%;
+  height: 300px;
+  background: url("../assets/assets/mobile/save-the-future-card1-mobile.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.future-card1-description {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.future-card1-matter1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.future-card1-matter2 {
+  width: 90%;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.85;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.future-card1-matter3 {
+  padding: 18px 40px;
+  background: #c1f7d5;
+  border-radius: 100px;
+  font-weight: bold;
+  color: #354463;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe {
+  background-color: #c1f7d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe_section {
+  width: 80%;
+  padding-top: 36px;
+  padding-bottom: 30px;
+}
+.sub_desc {
+  font: normal normal bold 21px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+.sub_form {
+  padding-top: 30px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.sub_inp {
+  width: 60%;
+
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  border: none;
+  padding-left: 20px;
+}
+.sub_btn {
+  width: 105px;
+  height: 40px;
+  background: #354463 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0px;
+  color: #c1f7d5;
+}
+
+.footer {
+  width: 100%;
+
+  height: 70svh;
+  background: #ffffff;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #354463;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.footer-inner {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto 1fr;
+}
+.footer-brand {
+  width: 94px;
+  height: 62px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.footer-contact {
+  width: 130px;
+  height: 96px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.footer-contact p:first-child {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.footer-contact p:last-child {
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.85;
+}
+
+.footer-follow {
+  width: 75px;
+  height: 122px;
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 60px;
+}
+
+.footer-follow p {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.footer-learn {
+  width: 80px;
+  height: 108px;
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 60px;
+}
+
+.footer-learn p {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #354463;
+  opacity: 0.85;
+}
+
+.footer-tagline {
+  width: 20%;
+  height: 136px;
+  grid-column: 2;
+  grid-row: 3;
+  align-self: end;
+  justify-self: start;
+  text-align: start;
+}
+
+.footer-tagline-text {
+  font-family: "flood-std", sans-serif;
+  font-size: clamp(7svw, 1.3rem, 11svw);
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.footer-para {
+  font-size: 12px;
+  opacity: 1;
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .header {
+    width: 100%;
+    height: 15svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-child {
+    width: 90%;
+    height: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: space-between;
+  }
+
+  .logo-and-lists {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .logo {
+    width: 50%;
+    font-size: clamp(1.2rem, 2.2vw, 2rem);
+  }
+  .nav {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .nav-list div {
+    font-size: clamp(0.9rem, 2vw, 1.3rem);
+
+    font-weight: lighter;
+  }
+  .donate-container {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .donate-btn {
+    width: 100%;
+    white-space: nowrap;
+
+    font-size: clamp(0.8rem, 2vw, 1.3rem);
+  }
+
+  .actions-gap {
+    width: 100%;
+    height: 40svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1f7d5;
+    position: relative;
+  }
+
+  .take-action {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 0px;
+  }
+
+  .take-action-head {
+    font-weight: lighter;
+    height: 40px;
+    width: 25%;
+  }
+
+  .action-item {
+    max-width: 40svw;
+
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .action-item .action-type {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #354463;
+  }
+  .action-item p {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.5;
+  }
+
+  .climate-change-container {
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    justify-content: space-between;
+  }
+
+  .climate-change {
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: start;
+    gap: 10%;
+    color: #354463;
+    position: relative;
+  }
+
+  .climate-issue {
+    font-weight: lighter;
+    height: 40px;
+    width: 30%;
+    color: #ffffff;
+    background-color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 10%;
+    font-size: 1rem;
+  }
+  .text-climate-change {
+    width: 80%;
+    font-size: clamp(1.2rem, 4vw, 2.5rem);
+  }
+  .text-link {
+    width: 80%;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #4c5975;
+    text-align: start;
+  }
+  .text-link a {
+    font-size: clamp(1rem, 2vw, 2.5rem);
+    text-decoration: underline;
+  }
+
+  .climate-change-photo {
+    height: 20%;
+    width: 25%;
+    order: -1;
+    align-self: flex-start;
+    font-size: 2.5rem;
+  }
+
+  .main-content {
+    width: 100%;
+    height: 80svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-content-child {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/assets/home/annie-spratt-135307-unsplash@2x.png");
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    background-size: 100svw 80svh;
+  }
+
+  .what-we-do {
+    background-color: #354463;
+    height: 160svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .what-we-do-main {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .what-we-do-child {
+    width: 80%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .what-we-do-heading {
+    width: 25%;
+    height: 15%;
+    color: #354463;
+    font-weight: lighter;
+    font-size: smaller;
+
+    align-self: flex-start;
+  }
+
+  .mission-explanation {
+    width: 100%;
+    height: 65%;
+
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: start;
+  }
+
+  .what-we-do-card {
+    width: 100%;
+    height: 25%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .what-we-do-card-child {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rest-what-we-do-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25 25 25%;
+    position: relative;
+    column-gap: 25px;
+  }
+
+  .pic-what-we-do {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    position: relative;
+    top: -30%;
+    grid-area: 1/1 / span 4/2;
+  }
+
+  .first {
+    background-image: url("../assets/assets/home/tree-planting.png");
+  }
+
+  .second {
+    background-image: url("../assets/assets/home/education-training.png");
+  }
+
+  .third {
+    background-image: url("../assets/assets/home/advocacy.png");
+  }
+  .what-we-do-card-title {
+    width: 100%;
+    height: 18px;
+    text-align: start;
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
+    grid-area: 1/2/2/3;
+    align-self: self-start;
+  }
+  .what-we-do-card-matter {
+    width: 100%;
+    height: 50%;
+    margin-top: 22px;
+    margin-bottom: 31px;
+    text-align: start;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 0.85;
+    grid-area: 2/2 / span 3/3;
+    position: absolute;
+    bottom: 20%;
+  }
+  .read-more-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-area: 4/1 / span 1/2;
+  }
+  .what-we-do-card-read-more {
+    width: 50%;
+    background: #c1f7d5;
+    border-radius: 100px;
+    font-weight: bold;
+    color: #354463;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 8px;
+  }
+  .facts {
+    height: 80svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/assets/home/did-you-know-background@2x.png");
+    background-size: cover;
+
+    background-position: left;
+  }
+
+  .facts-child {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+  }
+
+  .hunger-and-action {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+    align-self: flex-start;
+  }
+  .hunger-issue {
+    height: 65%;
+    width: 70%;
+    font-family: "flood-std";
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    color: white;
+    font-weight: lighter;
+  }
+  .take-action-hunger {
+    height: 10%;
+    width: 100%;
+    color: #354463;
+    align-self: center;
+    justify-self: flex-start;
+  }
+  .take-action-hunger-btn {
+    width: 80%;
+    height: 100%;
+    font-size: smaller;
+  }
+
+  .take-action-head {
+    font-weight: lighter;
+    height: 40px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    font-size: 1rem;
+  }
+
+  .did-you-know {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 15px;
+    position: relative;
+  }
+  .did-you-know-heading {
+    width: 15svh;
+    height: 6%;
+    background-color: #354463;
+    color: #ffffff;
+    align-self: flex-start;
+    font-size: smaller;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+    align-content: center;
+    text-align: center;
+  }
+
+  .know {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 30% 70%;
+    background-color: white;
+    height: 22%;
+    justify-items: space-between;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+  }
+  .fact {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .fact {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #354463;
+  }
+  .fact-details {
+    color: #354463;
+    font-weight: lighter;
+  }
+
+  .stories-div {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 10%;
+    position: relative;
+  }
+  .stories-photo-div {
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    align-self: flex-start;
+  }
+  .stories-title {
+    width: 30%;
+    height: 40px;
+    background: #354463 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: Helvetica;
+    font-size: 1rem;
+    letter-spacing: 0.56px;
+    color: #ffffff;
+    position: absolute;
+    top: -20px;
+    left: 10%;
+  }
+
+  .stories-photo {
+    height: 60svh;
+    width: 100%;
+    background: url("../assets/assets/home/lady-baby@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .stories-matter {
+    height: 35%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    z-index: 1;
+    position: absolute;
+    bottom: 10%;
+  }
+  .stories-description {
+    width: 100%;
+    height: 100%;
+    background: #354463 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .stories-matter-1 {
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: clamp(2svw, 1.5rem, 3svw);
+  }
+  .stories-matter-2 {
+    width: 100%;
+    height: 5%;
+  }
+  .stories-read-more {
+    width: 25%;
+    height: 45px;
+    font-size: 1rem;
+    align-self: flex-start;
+  }
+
+  .future-main-div {
+    width: 100%;
+    height: 160svh;
+  }
+
+  .future-title-div {
+    width: 80%;
+    height: 90px;
+    text-align: left;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    font-family: "flood-std", sans-serif;
+
+    margin-top: 20%;
+  }
+  .future-card1 {
+    height: 451px;
+    margin-top: 59.19px;
+  }
+  .future-card-title {
+    top: 0px;
+
+    left: 60%;
+  }
+  .rest-part-future-card1 {
+    height: 90%;
+    flex-direction: row;
+  }
+  .future-card1-photo {
+    width: 40%;
+    height: 288px;
+    background: url("../assets/assets/mobile/save-the-future-card1-mobile.png");
+  }
+  .future-card1-description {
+    height: 375px;
+    margin-top: 0px;
+    width: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    top: 76px;
+    left: 10%;
+  }
+  .future-card1-matter1 {
+    height: 100px;
+    width: 80%;
+    font: normal normal bold 28px Helvetica;
+    text-align: left;
+  }
+  .future-card1-matter2 {
+    width: 80%;
+    height: 170px;
+    font: normal normal 16px Helvetica light;
+    text-align: left;
+  }
+  .future-card1-matter3 {
+    margin-top: 0px;
+    height: 30px;
+    background: #c1f7d5;
+    border-radius: 100px;
+    font-weight: bold;
+    color: #354463;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card2 {
+    flex-direction: row-reverse;
+    position: relative;
+    top: 50px;
+    left: 10%;
+  }
+  .title1 {
+    left: 0px;
+    top: 50px;
+  }
+  .photo1 {
+    position: relative;
+    right: 10%;
+    background: url("../assets/assets/mobile/save-the-future-card1-mobile.png");
+  }
+  .description1 {
+    left: -47px;
+    top: 50px;
+  }
+  .matterr1 {
+    width: 286px;
+  }
+  .subscribe {
+    background-color: #c1f7d5;
+    height: 30svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub_desc {
+    width: 70%;
+    font: normal normal bold 21px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+  }
+  .sub_btn {
+    width: 25%;
+    height: 40px;
+    background: #354463 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #c1f7d5;
+  }
+  .footer {
+    width: 100%;
+
+    height: 50svh;
+    background: #ffffff;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #354463;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-inner {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 50% 50%;
+    justify-items: space-between;
+  }
+
+  .footer-follow {
+    grid-row: 1;
+    grid-column: 3;
+    margin-top: 0px;
+  }
+
+  .footer-follow p {
+    font-size: 12px;
+  }
+
+  .footer-learn {
+    width: 80px;
+    height: 108px;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 40px;
+  }
+
+  .footer-learn p {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-links li {
+    margin-bottom: 6px;
+  }
+
+  .footer-links a {
+    text-decoration: underline;
+    font-size: 14px;
+    color: #354463;
+    opacity: 0.85;
+  }
+
+  .footer-tagline {
+    width: 30%;
+    height: 136px;
+    grid-column: 3;
+    grid-row: 2;
+    align-self: end;
+    justify-self: start;
+    text-align: start;
+  }
+
+  .footer-tagline-text {
+    font-family: "flood-std", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+  }
+
+  .footer-para {
+    font-size: 12px;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 479px) {
+  .header {
+    width: 100%;
+    height: 25svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-child {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+
+  .logo-and-lists {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 50%;
+    font-size: 1.2rem;
+    align-self: center;
+  }
+  .nav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .nav-list div {
+    font-size: 0.9em;
+    font-weight: lighter;
+  }
+  .donate-container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+  }
+  .donate-btn {
+    width: 100%;
+  }
+
+  .actions-gap {
+    width: 100svw;
+    height: 45svh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #c1f7d5;
+    padding: 20px;
+    position: relative;
+  }
+
+  .take-action {
+    width: 80%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+
+  .action-item {
+    max-width: 40svw;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .action-item .action-type {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #354463;
+  }
+
+  .action-item p {
+    line-height: 1.5;
+    font-weight: lighter;
+    color: #354463;
+  }
+
+  .climate-change-container {
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    justify-content: space-between;
+  }
+
+  .climate-change {
+    height: 45%;
+    width: 100%;
+    background-color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    text-align: start;
+    gap: 10%;
+    color: #354463;
+    position: relative;
+  }
+
+  .climate-change-inner {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .climate-issue {
+    font-weight: lighter;
+    height: 40px;
+    width: 50%;
+    color: #ffffff;
+    background-color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    font-size: 1rem;
+  }
+
+  .text-climate-change {
+    width: 85%;
+    text-align: center;
+  }
+  .text-link {
+    width: 85%;
+    font-weight: lighter;
+    color: #4c5975;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+  }
+
+  .climate-change-photo {
+    height: 50%;
+    width: 50%;
+    order: -1;
+    align-self: flex-start;
+  }
+
+  .main-content {
+    width: 100svw;
+    height: 80svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-content-child {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("../assets/assets/mobile/annie-spratt-135307-unsplash.png");
+    background-size: cover;
+    background-size: 100svw 80svh;
+    filter: brightness(100%);
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content-child {
+    width: 100%;
+    background-image: url("../assets/assets/home/annie-spratt-135307-unsplash@3x.png");
+  }
+
+  .climate-change-container {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .climate-change {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    font-size: clamp(1rem, 3svw, 3rem);
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 10%;
+    color: #354463;
+    position: relative;
+  }
+
+  .climate-change-inner {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .climate-change a {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #4c5975;
+  }
+
+  .text-climate-change {
+    width: 80%;
+  }
+  .text-link {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #4c5975;
+    text-align: start;
+  }
+
+  .climate-change-photo {
+    height: 55%;
+    width: 30%;
+    font-family: "flood-std";
+    font-size: 4rem;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    color: white;
+    opacity: 1;
+    align-self: flex-start;
+  }
+
+  .climate-issue {
+    font-weight: lighter;
+    height: 40px;
+    width: 30%;
+    color: #ffffff;
+    background-color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 10%;
+    font-size: 1rem;
+  }
+  .actions-gap {
+    position: relative;
+  }
+  .take-action-head {
+    width: 10%;
+  }
+  .action-item {
+    line-height: 1.5;
+  }
+
+  .what-we-do {
+    background-color: #354463;
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .what-we-do-main {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    grid-area: 1/1/2/4;
+  }
+
+  .what-we-do-child {
+    width: 80%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20% 80%;
+    column-gap: 8%;
+  }
+
+  .what-we-do-heading {
+    width: 20%;
+    height: 30%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+  }
+  .mission-explanation {
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: start;
+  }
+
+  .what-we-do-card {
+    width: 100%;
+    height: 80%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .what-we-do-card-child {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rest-what-we-do-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pic-what-we-do {
+    width: 120%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    top: -10%;
+    left: 15%;
+  }
+
+  .first {
+    background-image: url("../assets/assets/home/tree-planting@3x.png");
+  }
+
+  .second {
+    background-image: url("../assets/assets/home/education-training@3x.png");
+  }
+
+  .third {
+    background-image: url("../assets/assets/home/advocacy@3x.png");
+  }
+  .what-we-do-card-title {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1.3rem, 4svw, 1.4rem);
+    color: #354463;
+    line-height: 1.2;
+  }
+  .what-we-do-card-matter {
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: clamp(0.5rem, 5svw, 1rem);
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 0.85;
+  }
+  .read-more-div {
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .what-we-do-card-read-more {
+    height: 100%;
+    width: 100%;
+    font-size: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+  }
+
+  .facts {
+    height: 130svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/assets/home/did-you-know-background@3x.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .facts-child {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .hunger-and-action {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+    align-self: flex-start;
+  }
+  .hunger-issue {
+    height: 65%;
+    width: 70%;
+    font-family: "flood-std";
+    font-size: clamp(2rem, 9svw, 3rem);
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    color: white;
+    font-weight: lighter;
+  }
+  .take-action-hunger {
+    height: 10%;
+    width: 100%;
+
+    color: #354463;
+    align-self: center;
+    justify-self: flex-start;
+  }
+  .take-action-hunger-btn {
+    width: 50%;
+    height: 100%;
+    font-size: large;
+  }
+
+  .take-action-head {
+    font-weight: lighter;
+    height: 40px;
+    width: 20%;
+    color: #ffffff;
+    background-color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    font-size: 1rem;
+  }
+
+  .did-you-know {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 5%;
+    position: relative;
+  }
+  .did-you-know-heading {
+    width: 15svh;
+    height: 4%;
+    background-color: #354463;
+    color: #ffffff;
+    align-self: flex-start;
+    font-size: smaller;
+    position: absolute;
+    left: 10%;
+    top: -3%;
+    align-content: center;
+    text-align: center;
+  }
+
+  .know {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 30% 70%;
+    background-color: white;
+
+    height: 18%;
+    justify-items: space-between;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+  }
+  .fact {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .fact {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #354463;
+  }
+  .fact-details {
+    color: #354463;
+    font-weight: lighter;
+  }
+
+  .stories-main-div {
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .stories-div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    margin-top: 0%;
+    position: relative;
+  }
+  .stories-photo-div {
+    height: 70svh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 0%;
+    order: 1;
+    left: 40%;
+  }
+  .stories-title {
+    width: 40%;
+    height: 40px;
+    background: #354463 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: Helvetica;
+    font-size: 1rem;
+    letter-spacing: 0.56px;
+    color: #ffffff;
+    position: absolute;
+    top: -20px;
+  }
+
+  .stories-photo {
+    width: 100%;
+    height: 70svh;
+    aspect-ratio: 5/3;
+    background: url("../assets/assets/home/lady-baby@3x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .stories-matter {
+    height: 70%;
+    width: 50%;
+    z-index: 1;
+    right: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    position: absolute;
+    justify-content: center;
+  }
+  .stories-description {
+    width: 100%;
+    height: 296px;
+    background: #354463 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .stories-matter-1 {
+    width: 80%;
+    height: 203px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: clamp(1.3rem, 1.5svw, 2rem);
+    letter-spacing: 0px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+  .stories-matter-2 {
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #ffffff;
+  }
+  .stories-read-more {
+    width: 30%;
+    height: 40px;
+    background: #c1f7d5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: Helvetica;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #354463;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .future-main-div {
+    width: 100%;
+    height: 160svh;
+  }
+
+  .future-title-div {
+    width: 80%;
+    height: 90px;
+    text-align: left;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    font-family: "flood-std", sans-serif;
+    margin-top: 10%;
+  }
+  .future-card1 {
+    height: 451px;
+    margin-top: 59.19px;
+  }
+  .future-card-title {
+    top: 0px;
+    left: 60%;
+  }
+  .rest-part-future-card1 {
+    height: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .future-card1-photo {
+    width: 80%;
+    height: 120%;
+    background-image: url("../assets/assets/home/tree-planting@3x.png");
+    background-size: cover;
+  }
+  .future-card1-description {
+    height: 375px;
+    margin-top: 0px;
+    width: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    top: 76px;
+    left: 10%;
+  }
+  .future-card1-matter1 {
+    height: 100px;
+    width: 80%;
+    font: normal normal bold 28px Helvetica;
+    text-align: left;
+  }
+  .future-card1-matter2 {
+    width: 80%;
+    height: 170px;
+    font: normal normal 16px Helvetica light;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .future-card1-matter3 {
+    margin-top: 0px;
+    height: 30px;
+  }
+  .card2 {
+    flex-direction: row-reverse;
+    position: relative;
+    top: 50px;
+    left: 10%;
+  }
+  .title1 {
+    left: 0px;
+    top: 50px;
+  }
+  .photo1 {
+    position: relative;
+    right: 10%;
+    background-image: url("../assets/assets/home/tree-planting@3x.png");
+    background-size: cover;
+  }
+  .description1 {
+    left: -47px;
+    top: 50px;
+  }
+  .matterr1 {
+    width: 286px;
+    margin-top: 5%;
+  }
+
+  .subscribe {
+    background-color: #c1f7d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20svh;
+  }
+  .subscribe_section {
+    width: 80%;
+    height: 80%;
+    padding-top: 36px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sub_desc {
+    width: 48%;
+    font: normal normal bold 21px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+  }
+  .sub_form {
+    padding-top: 10px;
+    width: 48%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    gap: 8px;
+  }
+  .sub_inp {
+    width: 68%;
+
+    height: 80%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    border: none;
+    padding-left: 20px;
+  }
+  .sub_btn {
+    height: 80%;
+    width: 28;
+    background: #354463 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0px;
+    color: #c1f7d5;
+  }
+
+  .footer-tagline {
+    width: 20%;
+    height: 80%;
+
+    display: flex;
+    align-self: start;
+    text-align: start;
+  }
+
+  .footer-tagline-text {
+    font-family: "flood-std", sans-serif;
+    font-size: clamp(2.2svw, 0.8rem, 2.3svw);
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    margin: 0;
+    align-self: flex-start;
+  }
+
+  .footer {
+    width: 100%;
+
+    height: 26svh;
+    background: #ffffff;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #354463;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .footer-inner {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .footer-brand {
+    width: 20%;
+    height: 80%;
+    height: 62px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer-contact {
+    width: 20%;
+    height: 80%;
+  }
+
+  .footer-contact p:first-child {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .footer-contact p:last-child {
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.85;
+  }
+
+  .footer-follow {
+    width: 20%;
+    height: 80%;
+    margin-top: 0px;
+  }
+
+  .footer-follow p {
+    font-size: 12px;
+    margin-bottom: 8px;
+    text-decoration: underline;
+  }
+
+  .footer-learn {
+    width: 20%;
+    height: 80%;
+    margin-top: 0px;
+  }
+
+  .footer-learn p {
+    font-size: 12px;
+    text-decoration: underline;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-links li {
+    margin-bottom: 6px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #354463;
+    opacity: 0.85;
+  }
+
+  .footer-para {
+    font-size: 12px;
+    opacity: 1;
+  }
+}
