@@ -28,7 +28,7 @@ body {
 
 .donationbgImage {
   width: 100%;
-  background-image: url("../assets/assets/donation/annie-spratt-427340-unsplash.png");
+  background-image: url("assets/assets/donation/annie-spratt-427340-unsplash.png");
   background-size: cover;
   background-position: center;
   padding: 2rem 1rem;
@@ -267,7 +267,7 @@ button {
     text-decoration: none;
   }
   .donationbgImage {
-    background-image: url("../assets/assets/donation/annie-spratt-427340-unsplash@2x.png");
+    background-image: url("assets/assets/donation/annie-spratt-427340-unsplash@2x.png");
   }
   .form-actions {
     flex-direction: row;
@@ -379,7 +379,7 @@ button {
     gap: 5rem;
   }
   .donationbgImage {
-    background-image: url("../assets/assets/donation/annie-spratt-427340-unsplash-\(1\)@2x.png");
+    background-image: url("assets/assets/donation/annie-spratt-427340-unsplash-\(1\)@2x.png");
     /* background-size: contain; */
     background-position: center;
   }
