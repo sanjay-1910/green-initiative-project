@@ -129,16 +129,18 @@ input::placeholder {
 
 .form-actions {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 1rem;
 }
 
 button {
+  width : 80%;
   border: none;
   background: #c1f7d5;
   padding: 0.8rem 2rem;
   border-radius: 2rem;
   font-weight: bold;
+  /* order : 1; */
 }
 .go-back {
   text-decoration: none;
@@ -498,5 +500,10 @@ button {
   .footer-para {
     font-size: 12px;
     opacity: 1;
+  }
+  .form-actions {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
